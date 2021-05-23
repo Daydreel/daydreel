@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+.body{
+	height: 100%;
+}
+
+#svelte{
+	height: 100%;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	height: 100%;
+	background-color: #fbfbfb;
+	color: #4a362f;
+}
+
+h1,h2 {
+	margin: 1em;
+}
+
+h2 > a {
+	text-decoration: none;
+	color: #111;
+}
+
+p {
+	margin-bottom: 1.4em;
+}
