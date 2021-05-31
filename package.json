@@ -1,5 +1,5 @@
 {
-  "name": "~TODO~",
+  "name": "daydreel",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -9,8 +9,13 @@
     "format": "prettier --write .",
     "start": "node build/index.js"
   },
-  "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.11",
+  "dependencies": {
+    "@sveltejs/adapter-node": "^1.0.0-next.22",
+    "@sveltejs/kit": "^1.0.0-next.109",
+    "heroku": "^7.54.0",
+    "mdsvex": "^0.9.0",
+    "svelte": "^3.34.0",
+    "svelte-preprocess": "^4.0.0",
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
     "rehype-autolink-headings": "^5.0.1",
@@ -20,13 +25,6 @@
     "tslib": "^2.0.0",
     "typescript": "^4.0.0",
     "vite": "^2.2.3"
-  },
-  "dependencies": {
-    "@sveltejs/kit": "^1.0.0-next.109",
-    "@sveltejs/adapter-node": "^1.0.0-next.22",
-    "mdsvex": "^0.9.0",
-    "svelte": "^3.34.0",
-    "svelte-preprocess": "^4.0.0"
   },
   "type": "module"
 }
